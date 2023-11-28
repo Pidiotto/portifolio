@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Wagner N Santos</title>
+
+    <!-- stilesheet Normalize CSS-->
+    <link rel="stylesheet" href="src/style/normalize.css">
+    <!-- header CSS -->
+    <link rel="stylesheet" href="/src/style/header.css">
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="/src/style/global.css">
+    <!-- Acordeon CSS -->
+    <link rel="stylesheet" href="/src/style/acordeon.css">
+
+    <!-- Font Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Language CSS -->
+    <link rel="stylesheet" href="/src/style/language.css">
+    <!-- Projects CSS -->
+    <link rel="stylesheet" href="/src/style/projects.css">
+    <!-- Skills CSS -->
+    <link rel="stylesheet" href="/src/style/skills.css">
+</head>
+
+<body>
+    <div class="main">
+        <header class="header">
+
+            <!-- imagem de perfil -->
+            <img src="./src/img/perfil.jpg" alt="Imagem Perfil" class="photo">
+
+            <h1 class="title">
+                Olá, eu sou <br>Wagner N. Santos
+            </h1>
+
+            <div class="information">
+                <p class="perfil">Junior Web Developer</p>
+                <p class="local">Rio Grande do Sul - BR</p>
+                <p class="wpp">(51) 9 8230-9825</p>
+                <p class="mail">wagner.nardes@gmail.com</p>
+            </div>
+        </header>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
+
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul id="profile.skills.hardSkills">
+                            <li>
+                                <img src="/src/img/tools/nodejs.png" alt="nodejs">
+                            </li>
+                            <li>
+                                <img src="/src/img/tools/html.png" alt="html">
+                            </li>
+                            <li>
+                                <img src="/src/img/tools/css.png" alt="css">
+                            </li>
+                            <li>
+                                <img src="/src/img/tools/js.png" alt="JavaScript">
+                            </li>
+                            <li>
+                                <img src="/src/img/tools/mysql.png" alt="mysql">
+                            </li>
+                            <li>
+                                <img src="/src/img/tools/vscode.png" alt="vscode">
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="personal">
+                        <h3>Pessoal:</h3>
+                        <ul id="profile.skills.softSkills">
+                            <li> Empatia</li>
+                            <li> Criatividade</li>
+                            <li> Trabalho em Equipe</li>
+                            <li> Flexibilidade</li>
+                            <li> Interesse</li>
+                            <li> Curiosidade</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                Idiomas
+            </button>
+
+            <div class="content">
+                <ul class="language">
+                    <li> ✔ Portugues (BR) </li>
+                    <li> ✔ Inglês (Intermediário) </li>
+                    <li> ✔ Espanhol (Intermediário) </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                Projetos
+            </button>
+
+            <div class="content">
+                <ul class="projects">
+                    <li>
+                        <span class="title github"> Quiz Segurança no Trabalho</span>
+                        <a href="https://github.com/Pidiotto/quiz_sol"
+                            target="_blank">https://github.com/Pidiotto/quiz_sol</a>
+                    </li>
+                    <li><span class="title github"> Yu-Gi-Oh - Jokenpô </span>
+                        <a href="https://github.com/Pidiotto/yugioh-jokenpo" target="_blank">
+                            https://github.com/Pidiotto/yugioh-jokenpo </a>
+                    </li>
+                    <li>
+                        <span class="title github"> Jogo da Memória com Emojis </span>
+                        <a href="https://github.com/Pidiotto/memory-game"
+                            target="_blank">https://github.com/Pidiotto/memory-game</a>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+    </div>
+
+    <!-- Script -->
+    <script src="/src/script/script.js"></script>
+</body>
+
+</html>
